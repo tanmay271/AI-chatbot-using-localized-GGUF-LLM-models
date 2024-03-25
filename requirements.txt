@@ -1,0 +1,13 @@
+uvicorn
+llama-cpp-python
+ipykernel
+pydantic
+fastapi
+typing
+huggingface_hub
+tensorflow
+langchain
+bs4
+openai
+torch
+argparse
