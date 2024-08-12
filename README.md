@@ -1,2 +1,4 @@
-Code is the same as the "GGUF-MONGODB" respository 
-Added FastAPI endpoints to the code
+->Used a MongoDB Atlas vector database to store embeddings of raw textual data and integrated it with a GGUF open source model from huggingface 
+->Model works based on RAG principles. Scraped raw text data from Wikipedia , then created it into chunks using RecursiveCharecterTextSplitter, then Converted it into embeddings using openai embeddings , stored those embeddings in mongodb DB.
+->Downloaded and initiallised GGUF model , quried questions from the model using MongoDB Database.
+->Added FastAPI endpoints.
